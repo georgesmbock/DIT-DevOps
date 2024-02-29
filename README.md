@@ -1,4 +1,11 @@
-                    ## Plan de Travail
+# Projet Devops
+
+### Equipe 4: 
+- Mbock Mbock georges
+- Kader Balder
+- Nzana Stephane
+
+
 
 
     Le CI/CD est un ensemble de pratique qui permet d'accélerer le rythme de déploiement des applications. Celà se fait à partir de deux étapes clées: 
@@ -8,19 +15,20 @@
      +- Le CD(Déploiement continue)
 
 
-     ### Objectif: Mise en place d'un pipeline CI/CD
+### Objectif: Mise en place d'un pipeline CI/CD
 
                                         
-                                        ## Plan de travail
+## Plan de travail
 
-        --><-- La partie CI 
+- La partie CI 
 
 
         Cette partie consistera à automatiser les opérations autour du dévéloppement et Test d'intégration.   
 
         Pour cette partie nous aurons les technologies suivantes:
 
-        +- Outils de gestion de code (Git) 
+        +- Outils de gestion de code (Git)
+        
         Cet outil nous permettra de centraliser toute les modifications de code.
 
         +- Serveur Intégration(Github action)
@@ -29,7 +37,7 @@
 
         Aorès toutes les vérifications, le code est déposé dans un dépot près à être déployé.
 
-        --><-- Dans la partie déploiement continue
+- Dans la partie déploiement continue
 
         +- On utilisera Docker.
 
