@@ -31,9 +31,9 @@
         Cet outil nous permettra de centraliser toute les modifications de code.
 
         +- Serveur Intégration(Github action)
-        Un serveur d'intégration qui occupera le code et effectuera des tests automatisés (Test unitaire pour vérifier le code, Test d'intégration système pour vérifier le bon fonctionnement de l'application)
+        Un serveur d'intégration qui réccupera le code et effectuera des tests automatisés (Test unitaire pour vérifier le code, Test d'intégration système pour vérifier le bon fonctionnement de l'application)
         +- Depot d'artefact
-        Aorès toutes les vérifications, le code est déposé dans un dépot près à être déployé.
+        Après toutes les vérifications, le code est déposé dans un dépot près à être déployé.
 
 - CD
 
