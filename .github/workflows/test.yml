@@ -33,9 +33,6 @@ jobs:
         run: pycodestyle --first main.py
       - name: Message
         run: echo "Check Success !"
-      #- name: remove docker
-      #  run: sudo apt remove docker-desktop
-      - name: install docker
-        run: sudo apt-get install docker-ce dock ber-ce-cli containerd.io docker-compose-plugin
-      - name: building image
-        run: docker build -t devoir_devops .
+      
+      - name: Build and push Docker images
+        uses: docker/build-push-action@v5.3.0
