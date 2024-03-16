@@ -1,0 +1,41 @@
+name: Run tests
+
+on:
+  # Sur la branche main également
+  push:
+    branches:
+      - 'main'
+  # Déclencheur ou événement
+  pull_request:
+  # Lors de la demende d'extraction est initiée ou ouverte
+    type:
+      - opened
+  # Sur la branche main
+    branches:
+      - 'main'
+  # Ayant pour objet la modification de main.py
+    paths:
+      - 'main.py'
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
+        with:
+          fetch-depth: 0
+      - name: Update packages
+        run: sudo apt update
+      - name: Launch check coode
+        run: sudo apt install -y pycodestyle
+      - name: Check code
+        run: pycodestyle --first main.py
+      - name: Message
+        run: echo "Check Success !"
+      - name: remove docker
+        run: sudo apt remove docker-desktop
+      - name: install docker
+        run: sudo apt-get install docker-ce dock ber-ce-cli containerd.io docker-compose-plugin
+      - name: building image
+        run: docker build -t devoir_devops .
