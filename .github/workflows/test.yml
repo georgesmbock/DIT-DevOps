@@ -33,8 +33,8 @@ jobs:
         run: pycodestyle --first main.py
       - name: Message
         run: echo "Check Success !"
-      - name: remove docker
-        run: sudo apt remove docker-desktop
+      #- name: remove docker
+      #  run: sudo apt remove docker-desktop
       - name: install docker
         run: sudo apt-get install docker-ce dock ber-ce-cli containerd.io docker-compose-plugin
       - name: building image
