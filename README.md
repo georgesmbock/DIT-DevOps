@@ -1,4 +1,4 @@
-# Projet Devops
+# Projet Devops(Encore en rédaction)
 
 ### Equipe 4: 
 - Mbock Mbock georges
@@ -14,7 +14,7 @@ Le CI/CD est un ensemble de pratique qui permet d'accélerer le rythme de déplo
 ### Objectif: Mise en place d'un pipeline CI/CD
 
                                         
-## Plan de travail
+## Plan de travail(encore en rédaction)
 
 - CI 
 
