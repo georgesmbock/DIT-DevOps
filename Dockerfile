@@ -2,7 +2,7 @@ FROM python:3.11
 
 WORKDIR /app
 
-ADD . .
+ADD app/ .
 
 EXPOSE 8501
 
