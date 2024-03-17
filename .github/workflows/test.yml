@@ -30,7 +30,7 @@ jobs:
       - name: Launch check coode
         run: sudo apt install -y pycodestyle
       - name: Check code
-        run: pycodestyle --first main.py
+        run: pycodestyle --first app/main.py
       - name: Message
         run: echo "Check Success !"
       - name: Set up Docker Buildx
