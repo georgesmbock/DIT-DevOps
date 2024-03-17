@@ -6,4 +6,4 @@ ADD app/ .
 
 EXPOSE 8501
 
-CMD [ "streamlit", "run", "app/main.py" ]
+CMD [ "streamlit", "run", "main.py" ]
