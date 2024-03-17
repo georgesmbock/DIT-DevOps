@@ -38,3 +38,5 @@ jobs:
         uses: docker/build-push-action@v5.3.0
       - name: Checking image exist
         run: docker image ls
+      - name: launch container
+        run : docker container run --publish 8501:8501 --detach --name cont devoir-devop
