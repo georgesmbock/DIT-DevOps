@@ -36,3 +36,5 @@ jobs:
       
       - name: Build and push Docker images
         uses: docker/build-push-action@v5.3.0
+      - name: Checking image exist
+        run: docker image ls
