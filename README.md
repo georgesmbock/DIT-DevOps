@@ -21,9 +21,9 @@ Le CI/CD est un ensemble de pratique qui permet d'accélerer le rythme de déplo
 
 Automatisation les opérations autour du dévéloppement et Test d'intégration.
 
-En créant un fichier test.yml, nous avons développé le job consistant à tester la qualité du code avec pycodestyle
+En créant un fichier test.yml, nous avons développé le job consistant à tester la qualité du code du fichier principal main.py avec pycodestyle et en cas de non succès, le fichier n'est pas mis à jour.
     
-lors des vecteur suivants:
+Cette action se déclanche lors des événement suivants:
 
      - pousse sur la branche principale
                 
