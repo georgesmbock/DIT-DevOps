@@ -51,4 +51,4 @@ jobs:
       - name: Checking image exist
         run: docker image ls
       - name: launch container
-        run : docker container run --publish 8501:8501 --detach --name cont devoir-devop:1.0.0
+        run : docker container run --publish 8501:8501 --detach --name cont devoir-devop:latest
